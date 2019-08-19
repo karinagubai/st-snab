@@ -489,6 +489,7 @@ img[src*="adv8"] {
 
 .agree {
   width: 349px;
+  max-width: 100%;
 }
 
  .modal-form {
@@ -580,6 +581,12 @@ img[src*="adv8"] {
 /* =================================
   Media Queries
 ==================================== */
+
+@media (max-width: 420px) {
+  h1 {
+    font-size: 22px;
+  }
+}
 
 @media (min-width: 576px) {
 
